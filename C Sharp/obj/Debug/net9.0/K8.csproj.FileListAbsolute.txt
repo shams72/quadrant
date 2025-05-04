@@ -12,3 +12,18 @@ C:\Users\Shams\Desktop\K8\obj\Debug\net9.0\refint\K8.dll
 C:\Users\Shams\Desktop\K8\obj\Debug\net9.0\K8.pdb
 C:\Users\Shams\Desktop\K8\obj\Debug\net9.0\K8.genruntimeconfig.cache
 C:\Users\Shams\Desktop\K8\obj\Debug\net9.0\ref\K8.dll
+C:\Users\Shams\Desktop\quadrant\C Sharp\bin\Debug\net9.0\K8.exe
+C:\Users\Shams\Desktop\quadrant\C Sharp\bin\Debug\net9.0\K8.deps.json
+C:\Users\Shams\Desktop\quadrant\C Sharp\bin\Debug\net9.0\K8.runtimeconfig.json
+C:\Users\Shams\Desktop\quadrant\C Sharp\bin\Debug\net9.0\K8.dll
+C:\Users\Shams\Desktop\quadrant\C Sharp\bin\Debug\net9.0\K8.pdb
+C:\Users\Shams\Desktop\quadrant\C Sharp\obj\Debug\net9.0\K8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shams\Desktop\quadrant\C Sharp\obj\Debug\net9.0\K8.AssemblyInfoInputs.cache
+C:\Users\Shams\Desktop\quadrant\C Sharp\obj\Debug\net9.0\K8.AssemblyInfo.cs
+C:\Users\Shams\Desktop\quadrant\C Sharp\obj\Debug\net9.0\K8.csproj.CoreCompileInputs.cache
+C:\Users\Shams\Desktop\quadrant\C Sharp\obj\Debug\net9.0\K8.sourcelink.json
+C:\Users\Shams\Desktop\quadrant\C Sharp\obj\Debug\net9.0\K8.dll
+C:\Users\Shams\Desktop\quadrant\C Sharp\obj\Debug\net9.0\refint\K8.dll
+C:\Users\Shams\Desktop\quadrant\C Sharp\obj\Debug\net9.0\K8.pdb
+C:\Users\Shams\Desktop\quadrant\C Sharp\obj\Debug\net9.0\K8.genruntimeconfig.cache
+C:\Users\Shams\Desktop\quadrant\C Sharp\obj\Debug\net9.0\ref\K8.dll
