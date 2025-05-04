@@ -12,7 +12,7 @@
 
 ### Bei ungeraden Quadranten (1, 3):
 
-`currentQuadrant =  Eingegebene Quadrant von nutzer  -  1`
+`currentQuadrant = 1, 2, 3 oder 4`
 
 - Um an der X-Achse zu spiegeln: `(currentQuadrant + 1) % 4`
 - Um an der Y-Achse zu spiegeln: `(((currentQuadrant - 1) % 4) + 4) % 4`
