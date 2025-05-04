@@ -50,7 +50,7 @@ public class Quadrant
             { '4', new[] { "   ", " _|", "| |" } },
             { '5', new[] { " _ ", " _|", "|_ " } },
             { '6', new[] { " _ ", "|_|", " _|" } },
-            { '7', new[] { "   ", "  |"," _| " } },
+            { '7', new[] { "   ", "  |", " _|" } },
             { '8', new[] { " _ ", "|_|", "|_|" } },
             { '9', new[] { " _ ", "|_ ", "|_|" } },
         };
@@ -162,26 +162,26 @@ public class Quadrant
             
         if(axis == "X" && currentQuadrant % 2 == 0 && quadrantValues[(((currentQuadrant - 1) % 4) + 4) % 4] == null ) {
             quadrantValues[(((currentQuadrant - 1) % 4) + 4) % 4] = GenerateAsciiArt(value,(((currentQuadrant - 1) % 4) + 4) % 4);
-            Console.WriteLine("Reflected along the X-Axis to Quadrant" + ((((currentQuadrant - 1) % 4) + 4) % 4).ToString());
+            Console.WriteLine("Reflected along the X-Axis to Quadrant " + (((((currentQuadrant - 1) % 4) + 4) % 4) + 1).ToString());
             return true;
         } 
 
         if(axis == "Y" && currentQuadrant % 2 == 0 && quadrantValues[(currentQuadrant + 1) % 4] == null ) {
             quadrantValues[(currentQuadrant + 1) % 4] = GenerateAsciiArt(value,(currentQuadrant + 1) % 4);
-            Console.WriteLine("Reflected along the Y-Axis to Quadrant" + ((currentQuadrant + 1) % 4).ToString());
+            Console.WriteLine("Reflected along the Y-Axis to Quadrant " + (((currentQuadrant + 1) % 4)+  1).ToString());
             return true;
            
         } 
 
         if(axis == "X" && currentQuadrant % 2 != 0 && quadrantValues[(currentQuadrant + 1) % 4] == null) {
             quadrantValues[(currentQuadrant + 1) % 4] = GenerateAsciiArt(value, (currentQuadrant + 1) % 4);
-            Console.WriteLine("Reflected along the X-Axis to Quadrant" + ((currentQuadrant + 1) % 4).ToString());
+            Console.WriteLine("Reflected along the X-Axis to Quadrant " + (((currentQuadrant + 1) % 4) + 1).ToString());
             return true;
         } 
 
         if(axis == "Y" && currentQuadrant % 2 != 0 && quadrantValues[(((currentQuadrant - 1) % 4) + 4) % 4] == null ) {
             quadrantValues[(((currentQuadrant - 1) % 4) + 4) % 4] = GenerateAsciiArt(value,(((currentQuadrant - 1) % 4) + 4) % 4);
-            Console.WriteLine("Reflected along the Y-Axis to Quadrant" + ((((currentQuadrant - 1) % 4) + 4) % 4).ToString());
+            Console.WriteLine("Reflected along the Y-Axis to Quadrant " + (((((currentQuadrant - 1) % 4) + 4) % 4) + 1).ToString());
             return true;
    
         } 
