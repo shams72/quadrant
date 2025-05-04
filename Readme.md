@@ -14,13 +14,13 @@
 
 ### Bei ungeraden Quadranten (1, 3):
 
-- Um an der X-Achse zu spiegeln: `[(((currentQuadrant - 1) % 4) + 4) % 4] + 1`
-- Um an der Y-Achse zu spiegeln: `[(currentQuadrant + 1) % 4] + 1 `
+- Um an der X-Achse zu spiegeln: `[(((currentQuadrant - 1) % 4) + 4) % 4]`
+- Um an der Y-Achse zu spiegeln: `[(currentQuadrant + 1) % 4]`
   
 ### Bei geraden Quadranten (2, 4):
 
-- Um an der X-Achse zu spiegeln: `[(currentQuadrant + 1) % 4] + 1`
-- Um an der Y-Achse zu spiegeln: `[(((currentQuadrant - 1) % 4) + 4) % 4] + 1`
+- Um an der X-Achse zu spiegeln: `[(currentQuadrant + 1) % 4]`
+- Um an der Y-Achse zu spiegeln: `[(((currentQuadrant - 1) % 4) + 4) % 4]`
 
 
 
